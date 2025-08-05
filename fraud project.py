@@ -1,7 +1,5 @@
 # Fraud Detection Project
 # Dataset: Fraud.csv
-# Author: Takshil Khurana 
-
 # --- 1. Import Libraries ---
 import pandas as pd
 import numpy as np
@@ -69,6 +67,7 @@ feat_imp.plot(kind='bar')
 plt.title('Feature Importance')
 plt.tight_layout()
 plt.show()
+
 
 
 
